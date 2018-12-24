@@ -39,29 +39,4 @@
     
   </entry>
   
-  <entry>
-    <title>AboutMe 关于我</title>
-    <link href="http://yoursite.com/AboutMe/"/>
-    <id>http://yoursite.com/AboutMe/</id>
-    <published>2018-12-24T08:51:00.000Z</published>
-    <updated>2018-12-24T09:52:53.809Z</updated>
-    
-    <content type="html"><![CDATA[<p>大概是一只具备共感能力的<a href="https://zh.moegirl.org/Nuko" target="_blank" rel="noopener">Nuko</a>。理想是作为一名百科全书式学者的自我实现。由于宇宙借你我等智慧生物进行自我观察，Who I am depends on who you are. </p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;大概是一只具备共感能力的&lt;a href=&quot;https://zh.moegirl.org/Nuko&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Nuko&lt;/a&gt;。理想是作为一名百科全书式学者的自我实现。由于宇宙借你我等智慧生物进行自我观察，Who I am
-      
-    
-    </summary>
-    
-    
-      <category term="introduction" scheme="http://yoursite.com/tags/introduction/"/>
-    
-      <category term="nuko" scheme="http://yoursite.com/tags/nuko/"/>
-    
-  </entry>
-  
 </feed>
