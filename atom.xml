@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-24T10:56:55.279Z</updated>
+  <updated>2018-12-25T02:40:50.342Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>R.E.W.团队服务器ip</title>
+    <link href="http://yoursite.com/IP/"/>
+    <id>http://yoursite.com/IP/</id>
+    <published>2018-12-25T02:14:56.000Z</published>
+    <updated>2018-12-25T02:40:50.342Z</updated>
+    
+    <content type="html"><![CDATA[<p>此页为R.E.W.团队成员设立。诸位可以通过检查本页评论区最新评论，获得两台服务器最新的ip地址。<br>如果您不明白本页在说什么，请不要随意添加评论。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;此页为R.E.W.团队成员设立。诸位可以通过检查本页评论区最新评论，获得两台服务器最新的ip地址。&lt;br&gt;如果您不明白本页在说什么，请不要随意添加评论。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://yoursite.com/tags/tech/"/>
+    
+      <category term="server" scheme="http://yoursite.com/tags/server/"/>
+    
+      <category term="IP" scheme="http://yoursite.com/tags/IP/"/>
+    
+  </entry>
   
   <entry>
     <title>AboutThisBlog 关于博客内容</title>

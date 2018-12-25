@@ -118,8 +118,6 @@
 <meta name="twitter:description" content="Q1. 什么是【主观】标签？ A1. 在本博客中您可能经常看到【主观】标签。因为Nuko本人坚信个人博客流量主要来源为搜索引擎，而大多数人至此目的是为了解决问题而非消遣时间——本博客大多内容也是围绕着解决问题这一中心。既然解决问题，便不应该带有主观情绪而是陈述事实。因此凡是包含客观条件无法检验内容的段落我都会标注【主观】标签。">
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="Nuko" type="application/atom+xml">
 
@@ -442,6 +440,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/AboutBlog/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/AboutBlog/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -538,6 +546,22 @@
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/IP/" rel="prev" title="R.E.W.团队服务器ip">
+                R.E.W.团队服务器ip <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
 
       
       
@@ -554,6 +578,10 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -596,7 +624,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -615,7 +643,13 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -868,6 +902,31 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+  <script>
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '5raCwA0CqGQSfjPFRXuDFBXR-gzGzoHsz',
+        appKey: 'XuMhsb5cp91KTMxQRjElEGXX',
+        placeholder: 'Let us send them... a message.',
+        avatar:'mm',
+        meta:guest,
+        pageSize:'10' || 10,
+        visitor: false
+    });
+  </script>
 
 
 
