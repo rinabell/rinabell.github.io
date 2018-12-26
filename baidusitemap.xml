@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://yoursite.com/IP/</loc>
-    <lastmod>2018-12-25T02:40:50.342Z</lastmod>
-  </url>  <url>
     <loc>http://yoursite.com/AboutBlog/</loc>
-    <lastmod>2018-12-24T10:56:55.279Z</lastmod>
+    <lastmod>2018-12-26T15:28:43.092Z</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/IP/</loc>
+    <lastmod>2018-12-26T09:19:05.888Z</lastmod>
   </url>
 </urlset>
