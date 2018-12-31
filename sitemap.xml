@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/SubmarineLaunchSatellite/</loc>
+    
+    <lastmod>2018-12-31T08:07:48.666Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/AboutMe/index.html</loc>
+    
+    <lastmod>2018-12-31T06:57:09.429Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/AboutBlog/</loc>
     
-    <lastmod>2018-12-27T14:27:43.866Z</lastmod>
+    <lastmod>2018-12-31T06:49:26.201Z</lastmod>
     
   </url>
   
@@ -40,13 +54,6 @@
     <loc>http://yoursite.com/IP/</loc>
     
     <lastmod>2018-12-26T09:19:05.888Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/AboutMe/index.html</loc>
-    
-    <lastmod>2018-12-26T09:18:23.049Z</lastmod>
     
   </url>
   
