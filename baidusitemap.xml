@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://yoursite.com/SubmarineLaunchSatellite/</loc>
-    <lastmod>2018-12-31T08:07:48.666Z</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/AboutBlog/</loc>
-    <lastmod>2018-12-31T06:49:26.201Z</lastmod>
+    <loc>http://yoursite.com/HowtoLinkServer/</loc>
+    <lastmod>2019-01-12T15:20:59.348Z</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/IP/</loc>
-    <lastmod>2018-12-26T09:19:05.888Z</lastmod>
+    <lastmod>2019-01-12T15:17:02.083Z</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/AboutBlog/</loc>
+    <lastmod>2019-01-12T12:03:40.247Z</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/SubmarineLaunchSatellite/</loc>
+    <lastmod>2018-12-31T08:07:48.666Z</lastmod>
   </url>
 </urlset>
