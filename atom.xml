@@ -90,20 +90,20 @@
     
       <category term="zotero" scheme="http://flytothemoon.me/tags/zotero/"/>
     
-      <category term="tutorial" scheme="http://flytothemoon.me/tags/tutorial/"/>
-    
       <category term="endnote" scheme="http://flytothemoon.me/tags/endnote/"/>
+    
+      <category term="tutorial" scheme="http://flytothemoon.me/tags/tutorial/"/>
     
       <category term="skilltree" scheme="http://flytothemoon.me/tags/skilltree/"/>
     
   </entry>
   
   <entry>
-    <title>博客提交谷歌站点地图的几个小问题	QuestionsAboutGoogleSitemap</title>
+    <title>博客提交谷歌站点地图的几个小问题	Questions About Google Sitemap</title>
     <link href="http://flytothemoon.me/QuestionsAboutGoogleSitemap/"/>
     <id>http://flytothemoon.me/QuestionsAboutGoogleSitemap/</id>
     <published>2019-01-13T05:38:39.166Z</published>
-    <updated>2019-01-13T13:39:38.656Z</updated>
+    <updated>2019-01-14T06:29:14.418Z</updated>
     
     <content type="html"><![CDATA[<ol><li><p>为何hexo博客在谷歌控制台中提交站点测试后，报错“此位置的 Sitemap 不允许此网址”？<br> 请检查博客文件夹下_config.yml中，url:后一定要更改为自己的域名。</p><a id="more"></a></li><li><p>为何HTML验证个人博客时，谷歌总是提示验证失败？<br> 如果你用的hexo，请检查谷歌console中显示的提取结果，正常应该是类似“google-site-verification:吧啦吧啦”。<br> 如果不是，请注意要将下载下来的google巴拉巴拉.html直接放置在生成的public文件夹中，而不是<del>像我一样</del>图省事放在source文件夹中——这样hexo生成时会修改这个网页导致谷歌识别失败。</p></li><li><p>hexo g 时总是提示FATAL can not read a block mapping entry？<br> 请一定要注意前后文，注意不要重复设置同一部分（比如有两个 sitemap: ）；注意冒号后该有的空格一定要有，虽然最新版的hexo对此似乎已经不是很敏感了。</p></li></ol>]]></content>
     
