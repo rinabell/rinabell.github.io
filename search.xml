@@ -33,8 +33,8 @@
       </categories>
       <tags>
         <tag>zotero</tag>
-        <tag>endnote</tag>
         <tag>tutorial</tag>
+        <tag>endnote</tag>
         <tag>skilltree</tag>
       </tags>
   </entry>
@@ -80,7 +80,7 @@
   <entry>
     <title><![CDATA[R.E.W.团队服务器IP All About Team R.E.W. Server]]></title>
     <url>%2FIP%2F</url>
-    <content type="text"><![CDATA[此页为R.E.W.团队成员设立。诸位可以通过检查本页评论区最新评论，获得两台服务器最新的ip地址。这两台服务器分别是DELL POWEREDGE R720与R740。评论中将分别以’Adam’与’Eve’代指。 注意！如果您不明白本页在说什么，请不要随意添加评论；不恰当的言论会使您进入黑名单；如果有技术上的问题，请联系flymeetomoon@gmail.com。Thanks♪(･ω･)ﾉ 关于如何连接服务器、使用本网页提供资源，请参开该网页。]]></content>
+    <content type="text"><![CDATA[此页为R.E.W.团队成员设立。诸位可以通过检查本页评论区最新评论，获得两台服务器最新的ip地址。这两台服务器分别是DELL POWEREDGE R720与R740。评论中将分别以’Adam’与’Eve’代指。 如果你的浏览器无法显示本网页评论区（比如本页最后显示code xxx），请卸载掉中国流氓公司基于chromium开发的浏览器（比如360浏览器、搜狗浏览器），改用Firefox或者Chrome（你可以通过校园网ipv6直连谷歌，然后使用abp、油猴等插件取得明显优于流氓浏览器的广告屏蔽、美化效果、使用体验）；如果提示网页链接内容不够私密，请点击网页下方的more，选择继续访问并信任本网站。 注意！如果您不明白本页在说什么，请不要随意添加评论；不恰当的言论会使您进入黑名单；如果有技术上的问题，请联系Rinabell。Thanks♪(･ω･)ﾉ 关于如何连接服务器、使用本网页提供资源，请参考该网页。 190117更新：现在256所有人（除将毕业的师姐）都可以登录R720服务器了！用户名为学号，密码为:plzchangepasswd 。（意思就是请尽快更改你的密码！）目前新建用户应该都是sodoer，所以请谨慎操作。请注意，该服务器GPU同一时间内可能只支持一个人使用（MATLAB就随便了）。]]></content>
       <categories>
         <category>机械造物</category>
       </categories>

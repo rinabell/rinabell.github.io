@@ -90,9 +90,9 @@
     
       <category term="zotero" scheme="http://flytothemoon.me/tags/zotero/"/>
     
-      <category term="endnote" scheme="http://flytothemoon.me/tags/endnote/"/>
-    
       <category term="tutorial" scheme="http://flytothemoon.me/tags/tutorial/"/>
+    
+      <category term="endnote" scheme="http://flytothemoon.me/tags/endnote/"/>
     
       <category term="skilltree" scheme="http://flytothemoon.me/tags/skilltree/"/>
     
@@ -185,9 +185,9 @@
     <link href="http://flytothemoon.me/IP/"/>
     <id>http://flytothemoon.me/IP/</id>
     <published>2018-12-25T02:14:56.000Z</published>
-    <updated>2019-01-13T13:36:52.312Z</updated>
+    <updated>2019-01-17T13:59:09.725Z</updated>
     
-    <content type="html"><![CDATA[<p>此页为R.E.W.团队成员设立。诸位可以通过检查本页评论区最新评论，获得两台服务器最新的ip地址。<br><a id="more"></a><br>这两台服务器分别是DELL POWEREDGE R720与R740。<strong>评论中将分别以’Adam’与’Eve’代指。</strong></p><p>注意！如果您不明白本页在说什么，请不要随意添加评论；不恰当的言论会使您进入黑名单；如果有技术上的问题，请联系<a href="mailto:flymeetomoon@gmail.com" target="_blank" rel="noopener">flymeetomoon@gmail.com</a>。Thanks♪(･ω･)ﾉ</p><p>关于如何连接服务器、使用本网页提供资源，请参开<a href="https://flytothemoon.me/HowtoLinkServer/">该网页</a>。</p>]]></content>
+    <content type="html"><![CDATA[<p>此页为R.E.W.团队成员设立。诸位可以通过检查本页评论区最新评论，获得两台服务器最新的ip地址。<br><a id="more"></a><br>这两台服务器分别是DELL POWEREDGE R720与R740。<strong>评论中将分别以’Adam’与’Eve’代指。</strong></p><p><strong>如果你的浏览器无法显示本网页评论区（比如本页最后显示code xxx），请卸载掉中国流氓公司基于chromium开发的浏览器（比如360浏览器、搜狗浏览器），改用Firefox或者Chrome（你可以通过校园网ipv6直连谷歌，然后使用abp、油猴等插件取得明显优于流氓浏览器的广告屏蔽、美化效果、使用体验）；如果提示网页链接内容不够私密，请点击网页下方的more，选择继续访问并信任本网站。</strong></p><p>注意！如果您不明白本页在说什么，请不要随意添加评论；不恰当的言论会使您进入黑名单；如果有技术上的问题，请联系<a href="flymeetomoon@gmail.com">Rinabell</a>。Thanks♪(･ω･)ﾉ</p><p>关于如何连接服务器、使用本网页提供资源，请参考<a href="https://flytothemoon.me/HowtoLinkServer/">该网页</a>。</p><hr><p>190117更新：<br>现在256所有人（除将毕业的师姐）都可以登录R720服务器了！用户名为学号，密码为:plzchangepasswd 。（意思就是请尽快更改你的密码！）目前新建用户应该都是sodoer，所以请谨慎操作。<br>请注意，<strong>该服务器GPU同一时间内可能只支持一个人使用</strong>（MATLAB就随便了）。</p>]]></content>
     
     <summary type="html">
     
