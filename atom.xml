@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://flytothemoon.me/"/>
-  <updated>2019-05-04T13:09:52.589Z</updated>
+  <updated>2019-06-19T03:43:20.884Z</updated>
   <id>http://flytothemoon.me/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>服务器安装英伟达驱动与GCC版本问题	Questions About Nvidia Driver and GCC Version</title>
+    <link href="http://flytothemoon.me/NvidiaDriver/"/>
+    <id>http://flytothemoon.me/NvidiaDriver/</id>
+    <published>2019-06-19T03:06:48.093Z</published>
+    <updated>2019-06-19T03:43:20.884Z</updated>
+    
+    <content type="html"><![CDATA[<p>通常ubuntu安装显卡驱动：<br>先屏蔽自带的nouveau，重启后确认nouveau不在运行，ctrl+alt+f1进入Init3，之后</p><blockquote><p>sudo service lightdm stop<br>终止xwindow服务，给予驱动读写权限，执行即可。此后只需要<br>startx &amp; sudo service lightdm start<br>即可恢复原来桌面。</p></blockquote><a id="more"></a><p>但这次在为Dell Precision 7910服务器安装显卡驱动时屡次失败，提示为：</p><blockquote><p>Unable to determine the version of the kernel sources located in ‘/lib/modules/4.15.0-51-generic/build’.<br>以及<br>CC version check failed: The kernel bulit with gcc version 4.5.0 but current compliler is cc 4.8.5.</p></blockquote><p>记录下环境，系统为Ubuntu 16.04 LTS，显卡为2080Ti。</p><p>首先根据提示检查 ‘var/log/nvidia-installer.log’。检查后发现正如上文显示的一样，gcc版本不对。随后我们升级了主板UEFI(BIOS)，仿照网上教程下载编译安装了gcc 5.4，虽然</p><blockquote><p>gcc –version<br>显示gcc版本已经更改为5.4.0，但再次尝试依旧失败。</p></blockquote><p>之后绕的弯路此处不表，结果发现还是自动安装gcc后就可以正常安装驱动了，原因不知道为什么，而且一查安装的是gcc 4.3.1而非4.5：</p><blockquote><p>sudo apt-get autoremove gcc<br>sudo apt-get install gcc</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;通常ubuntu安装显卡驱动：&lt;br&gt;先屏蔽自带的nouveau，重启后确认nouveau不在运行，ctrl+alt+f1进入Init3，之后&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;sudo service lightdm stop&lt;br&gt;终止xwindow服务，给予驱动读写权限，执行即可。此后只需要&lt;br&gt;startx &amp;amp; sudo service lightdm start&lt;br&gt;即可恢复原来桌面。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="机械造物" scheme="http://flytothemoon.me/categories/%E6%9C%BA%E6%A2%B0%E9%80%A0%E7%89%A9/"/>
+    
+    
+      <category term="server" scheme="http://flytothemoon.me/tags/server/"/>
+    
+      <category term="ubuntu" scheme="http://flytothemoon.me/tags/ubuntu/"/>
+    
+      <category term="nvidia" scheme="http://flytothemoon.me/tags/nvidia/"/>
+    
+      <category term="driver" scheme="http://flytothemoon.me/tags/driver/"/>
+    
+  </entry>
   
   <entry>
     <title>死锁	Deadlock</title>
