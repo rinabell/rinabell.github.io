@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://flytothemoon.me/"/>
-  <updated>2019-06-19T03:43:20.884Z</updated>
+  <updated>2019-07-09T06:02:15.202Z</updated>
   <id>http://flytothemoon.me/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Errno 13 Pip安装问题	Questions with pip installation</title>
+    <link href="http://flytothemoon.me/Errno13withPip/"/>
+    <id>http://flytothemoon.me/Errno13withPip/</id>
+    <published>2019-07-09T05:30:37.764Z</published>
+    <updated>2019-07-09T06:02:15.202Z</updated>
+    
+    <content type="html"><![CDATA[<p>尝试下面命令时总是报错：<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 <span class="keyword">install</span> tensorlayer</span><br></pre></td></tr></table></figure></p><a id="more"></a><p>报错内容千奇百怪，比如：</p><blockquote><p>You are using pip version 18.1, however version 19.1.1 is available.<br>You should consider upgrading via the ‘pip install –upgrade pip’ command.<br>但是尝试了升级还是报错。</p></blockquote><p>以及：</p><blockquote><p>Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: ‘/home/xxxxxx/.local/lib/python3.6’<br>Check the permissions.<br>但是按照<a href="https://github.com/googlesamples/assistant-sdk-python/issues/236" target="_blank" rel="noopener">github上解决方案</a> 仍旧报错。</p></blockquote><p>查询了下发现使用pip替代pip3即可解决。原因大概是，pypi的路径问题。最直观的解释如下：</p><blockquote><p>(tf2) $ pip -V<br>pip 19.1.1 from /home/xxxxxx/anaconda3/envs/tf2/lib/python3.7/site-packages/pip (python 3.7)</p></blockquote><blockquote><p>(tf2) $ pip3 -V<br>pip 18.1 from /home/admin/anaconda3/lib/python3.6/site-packages/pip (python 3.6)</p></blockquote><p>由此可见，在py3为默认python版本的当前，传统意义上pip为py2安装目录、pip3为py3目录的解释已经失效了。</p><p>实际上，pip为<strong>系统当前环境默认提供</strong>的安装路径，在本问题中是anaconda某个环境下默认安装目录，因此直接调用即可。</p><p>而pip3则仍是系统默认下的py3安装目录，也就是最初管理员设置的目录下，以区别于linux的py2库。</p><p>所以使用pip安装不同于conda，需要事先想好安装到哪个库上。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;尝试下面命令时总是报错：&lt;br&gt;&lt;figure class=&quot;highlight cmake&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pip3 &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; tensorlayer&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="机械造物" scheme="http://flytothemoon.me/categories/%E6%9C%BA%E6%A2%B0%E9%80%A0%E7%89%A9/"/>
+    
+    
+      <category term="python" scheme="http://flytothemoon.me/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>服务器安装英伟达驱动与GCC版本问题	Questions About Nvidia Driver and GCC Version</title>
@@ -256,11 +278,11 @@
     
       <category term="server" scheme="http://flytothemoon.me/tags/server/"/>
     
+      <category term="mobaxterm" scheme="http://flytothemoon.me/tags/mobaxterm/"/>
+    
       <category term="linux" scheme="http://flytothemoon.me/tags/linux/"/>
     
       <category term="ubuntu" scheme="http://flytothemoon.me/tags/ubuntu/"/>
-    
-      <category term="mobaxterm" scheme="http://flytothemoon.me/tags/mobaxterm/"/>
     
   </entry>
   
@@ -309,13 +331,13 @@
       <category term="机械造物" scheme="http://flytothemoon.me/categories/%E6%9C%BA%E6%A2%B0%E9%80%A0%E7%89%A9/"/>
     
     
-      <category term="tech" scheme="http://flytothemoon.me/tags/tech/"/>
-    
       <category term="server" scheme="http://flytothemoon.me/tags/server/"/>
     
       <category term="linux" scheme="http://flytothemoon.me/tags/linux/"/>
     
       <category term="ubuntu" scheme="http://flytothemoon.me/tags/ubuntu/"/>
+    
+      <category term="tech" scheme="http://flytothemoon.me/tags/tech/"/>
     
   </entry>
   

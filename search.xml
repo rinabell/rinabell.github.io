@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Errno 13 Pip安装问题 Questions with pip installation]]></title>
+    <url>%2FErrno13withPip%2F</url>
+    <content type="text"><![CDATA[尝试下面命令时总是报错：1pip3 install tensorlayer 报错内容千奇百怪，比如： You are using pip version 18.1, however version 19.1.1 is available.You should consider upgrading via the ‘pip install –upgrade pip’ command.但是尝试了升级还是报错。 以及： Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: ‘/home/xxxxxx/.local/lib/python3.6’Check the permissions.但是按照github上解决方案 仍旧报错。 查询了下发现使用pip替代pip3即可解决。原因大概是，pypi的路径问题。最直观的解释如下： (tf2) $ pip -Vpip 19.1.1 from /home/xxxxxx/anaconda3/envs/tf2/lib/python3.7/site-packages/pip (python 3.7) (tf2) $ pip3 -Vpip 18.1 from /home/admin/anaconda3/lib/python3.6/site-packages/pip (python 3.6) 由此可见，在py3为默认python版本的当前，传统意义上pip为py2安装目录、pip3为py3目录的解释已经失效了。 实际上，pip为系统当前环境默认提供的安装路径，在本问题中是anaconda某个环境下默认安装目录，因此直接调用即可。 而pip3则仍是系统默认下的py3安装目录，也就是最初管理员设置的目录下，以区别于linux的py2库。 所以使用pip安装不同于conda，需要事先想好安装到哪个库上。]]></content>
+      <categories>
+        <category>机械造物</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[服务器安装英伟达驱动与GCC版本问题 Questions About Nvidia Driver and GCC Version]]></title>
     <url>%2FNvidiaDriver%2F</url>
     <content type="text"><![CDATA[通常ubuntu安装显卡驱动：先屏蔽自带的nouveau，重启后确认nouveau不在运行，ctrl+alt+f1进入Init3，之后 sudo service lightdm stop终止xwindow服务，给予驱动读写权限，执行即可。此后只需要startx &amp; sudo service lightdm start即可恢复原来桌面。 但这次在为Dell Precision 7910服务器安装显卡驱动时屡次失败，提示为： Unable to determine the version of the kernel sources located in ‘/lib/modules/4.15.0-51-generic/build’.以及CC version check failed: The kernel bulit with gcc version 4.5.0 but current compliler is cc 4.8.5. 记录下环境，系统为Ubuntu 16.04 LTS，显卡为2080Ti。 首先根据提示检查 ‘var/log/nvidia-installer.log’。检查后发现正如上文显示的一样，gcc版本不对。随后我们升级了主板UEFI(BIOS)，仿照网上教程下载编译安装了gcc 5.4，虽然 gcc –version显示gcc版本已经更改为5.4.0，但再次尝试依旧失败。 之后绕的弯路此处不表，结果发现还是自动安装gcc后就可以正常安装驱动了，原因不知道为什么，而且一查安装的是gcc 4.3.1而非4.5： sudo apt-get autoremove gccsudo apt-get install gcc]]></content>
@@ -111,9 +122,9 @@
       </categories>
       <tags>
         <tag>server</tag>
+        <tag>mobaxterm</tag>
         <tag>linux</tag>
         <tag>ubuntu</tag>
-        <tag>mobaxterm</tag>
       </tags>
   </entry>
   <entry>
@@ -136,10 +147,10 @@
         <category>机械造物</category>
       </categories>
       <tags>
-        <tag>tech</tag>
         <tag>server</tag>
         <tag>linux</tag>
         <tag>ubuntu</tag>
+        <tag>tech</tag>
       </tags>
   </entry>
   <entry>
