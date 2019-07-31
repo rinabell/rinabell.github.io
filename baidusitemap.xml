@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://flytothemoon.me/HowtoStartDeepLearninginServer/</loc>
-    <lastmod>2019-07-17</lastmod>
+    <loc>http://flytothemoon.me/Hotkey/</loc>
+    <lastmod>2019-07-31</lastmod>
   </url>  <url>
     <loc>http://flytothemoon.me/HowtoLinkServer/</loc>
-    <lastmod>2019-07-12</lastmod>
+    <lastmod>2019-07-31</lastmod>
+  </url>  <url>
+    <loc>http://flytothemoon.me/HowtoStartDeepLearninginServer/</loc>
+    <lastmod>2019-07-31</lastmod>
   </url>  <url>
     <loc>http://flytothemoon.me/Errno13withPip/</loc>
     <lastmod>2019-07-09</lastmod>
